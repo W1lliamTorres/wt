@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Parisienne', cursive;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+body{
+    background: pink;
+    height: 100vh;
+    position: relative;
+}
+
+/* header */
+header img{
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+
+main{
+    height: calc(100% - 192px);
+}
+
+.bot {
+    margin-top: 3%;
+    margin-left: 42%;
+}
+
+.boton {
+    width:73px;
+    height: 56px;
+    font-size: 37px;
+    border: none;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+/* main */
+main img{
+    width: 300px;
+    height: 300px;
+    position: center, end;
+    margin-left: 39%;
+    margin-top: 3%;
+}
+
+@media(max-width: 560px) {
+    .image {
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    .text1{
+        display: inline;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 28%;
+        margin-top: 10px;
+    }
+
+    .bot {
+        height: 40px;
+        width: 90px;
+        margin-left: 34%;
+    }
+
+    .boton {
+        height: 55px;
+        width: 74px;
+    }
+
+    .image2 {
+        width: 250px;
+        height: 250px;
+        margin-left: 26.5%;
+    }
+}
+
+@media (max-height: 500px) {
+    .body{
+        display: none;
+    }
+    .body{
+        top: 0;
+    }
+}
